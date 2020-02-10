@@ -1,0 +1,17 @@
+<h1>{{name}}</h1>
+<h1>{{title}}</h1>
+
+<input [ngClass]="{ 'color-red':isRed, 'color-blue':isBlue}" [value]="title">
+<input [value]="title">
+<input [class.special]="badCurly" [value]="title">
+
+<button (click)="toggleVisible($event)"></button>
+
+<div *ngIf="visible">Visible</div>
+<div *ngIf="!visible">Not Visible</div>
+
+<ul>
+  <li *ngFor="let user of users">
+    <span>{{user.name}}</span><span>{{user.age}}</span>
+  </li>
+</ul>

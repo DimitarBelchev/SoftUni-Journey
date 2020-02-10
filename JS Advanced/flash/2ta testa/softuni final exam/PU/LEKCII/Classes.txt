@@ -1,0 +1,40 @@
+class Rectangle {
+    constructor(height, width) {
+        this.height = height;
+        this.width = width;
+    }
+    calcArea() {
+        return this.width * this.height;
+    }
+    static staticMethod() {
+        return 'Static method has been called';
+    }
+}
+class Cube extends Rectangle {
+    constructor(height, width, length) {
+        super(height, width);
+        this.length = length;
+    }
+}
+let rect = new Rectangle(4, 5);
+console.log(rect.width);//4
+console.log(rect.height);//5
+console.log(rect.calcArea());//20
+
+Rectangle.prototype.color = 'red'; // add new properties 
+
+class Circle {
+    constructor(radius) {
+        this.radius = radius;
+    }
+    get diameter() {                    //getter
+        return 2 * this.radius;
+    }
+    set diameter(diameter) {            //setter
+        this.radius = diameter / 2;
+    }
+    get area() {                        //read-only
+        return Math.PI * this.radius * this.radius;
+    }
+}
+

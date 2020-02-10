@@ -1,0 +1,23 @@
+<h1>{{name}}</h1>
+<h1>{{title}}</h1>
+<!-- <h1 [class]="someCLassNsmeFromMyComponentInstance">{{title}}</h1> -->
+<!-- <h1 [class.someCssClass]="shouldHaveThisClass">{{title}}</h1> -->
+<!-- <h1> [ngClass]="{'red':isRed, 'green': isGreen}"={{title}}</h1> -->
+
+<!-- <input [ngClass]="{ 'color-red':isRed, 'color-blue':isBlue}" [value]="title"> -->
+<input #titleInput>
+<button (click)="setTitle(titleInput.value)">Change Title</button>
+
+<!-- <button (click)="title=titleInput.value">Change Title</button> -->
+<!-- <input [class.special]="badCurly" [value]="title"> -->
+
+<button (click)="toggleVisible($event)"></button>
+
+<div *ngIf="visible">Visible</div>
+<div *ngIf="!visible">Not Visible</div>
+
+<ul>
+  <li *ngFor="let user of users">
+    <app-user [info]="user"(delete)="deleteUserHandler($event)"></app-user>
+  </li>
+</ul> 
