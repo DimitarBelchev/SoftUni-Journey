@@ -1,8 +1,6 @@
-import { Component, OnInit } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { ICause } from '../shared/interfaces/cause';
 import { CausesService } from '../causes.service';
-import { VirtualTimeScheduler } from 'rxjs';
 
 @Component({
   selector: 'app-left',
@@ -13,14 +11,17 @@ export class LeftComponent implements OnInit {
 
   get causes() { return this.causesService.causes; }
 
-  constructor(private causesService: CausesService) { }
+  @Output() selectCause: EventEmitter<ICause> = new EventEmitter();
 
+  constructor(private causesService: CausesService) { }
 
   ngOnInit() {
     this.causesService.loadCauses();
   }
 
   selectCauseHandler(cause: ICause) {
+    // this.selectCause.emit(cause);
     this.causesService.selectedCause = cause;
   }
+
 }

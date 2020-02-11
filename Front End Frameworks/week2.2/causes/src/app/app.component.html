@@ -5,10 +5,11 @@
     <div class="col-md-12">
 
       <div class="row">
-        <app-left></app-left>
-        <app-right></app-right>
+        <app-left (selectCause)="selectCauseHandler($event)">
+        </app-left>
+        <app-right [selectedCause2]="selectedCause">
+        </app-right>
       </div>
-
     </div>
   </div>
 </div>
