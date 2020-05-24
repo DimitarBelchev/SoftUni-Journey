@@ -1,0 +1,24 @@
+{
+  "name": "cats",
+  "version": "1.0.0",
+  "description": "no desctription",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "cats",
+    "expressjs",
+    "nodejs",
+    "javascript"
+  ],
+  "author": "retry2z",
+  "license": "MIT",
+  "dependencies": {
+    "formidable": "^1.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
