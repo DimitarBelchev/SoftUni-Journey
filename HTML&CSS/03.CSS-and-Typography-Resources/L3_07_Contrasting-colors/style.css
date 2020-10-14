@@ -4,11 +4,11 @@ html{
     line-height: 1.5;
 }
 
-article{
-    background-color: rgb(51, 102, 153);
+article {
+    background-color: rgb(51, 102, 153) ;
     color: rgb(255, 255, 255);
     border-radius: 1rem;
-    padding: 3px;
+    padding: 2px;
 }
 
 h1{

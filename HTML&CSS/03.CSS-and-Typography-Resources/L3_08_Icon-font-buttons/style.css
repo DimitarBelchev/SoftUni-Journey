@@ -1,15 +1,19 @@
-@import url('https://use.fontawesome.com/releases/v5.10.2/css/all.css');
+@import url('https://use.fontawesome.com/releases/v5.0.9/css/all.css');
+
+html {
+    font-family: Helvetica, serif;
+}
 
 p{
     display: inline-block;
-    padding: 15px;
-    border-radius: 3px;
-    margin: 1px, 1px, 1px, 1px;
+    padding: 12px;
+    border-radius: 2px;
+    margin: 1px, 1px,1px,1px;
 }
 
 a{
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 p.ClickMe{
