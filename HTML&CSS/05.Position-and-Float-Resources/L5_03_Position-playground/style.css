@@ -1,0 +1,39 @@
+@import url('https://use.fontawesome.com/releases/v5.0.9/css/all.css');
+.card {
+    display: block;
+    position: absolute;
+    left: 35%;
+    top:15%
+}
+
+div.first {
+    background: linear-gradient(to right, rgb(24, 90, 157), rgb(67, 206, 162));
+}
+
+div.second {
+    background: linear-gradient(to right, rgb(187, 2, 187), rgb(253, 137, 4));
+}
+
+div {
+    height: 350px;
+    position: relative;
+}
+
+img {
+    position: absolute;
+    display: inline-block;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+    width: auto;
+    height: 250px;    
+}
+
+i {
+    position: relative;
+    top: 220px;
+    left: 130px;
+    color: white;
+}
+
+.fa-link{
+    left: 330px;
+}
