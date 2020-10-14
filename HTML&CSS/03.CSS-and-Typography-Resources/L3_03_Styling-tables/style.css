@@ -1,0 +1,32 @@
+thead tr{
+    background-color: rgb(221, 221, 221);
+    text-align: left;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+body{
+    padding: 50px 50px 0px 50px;
+}
+
+tbody tr:nth-of-type(odd) td{
+    background-color:rgb(241, 241, 241)
+}
+
+tbody tr:hover{
+    background-color: rgb(0, 0, 0);
+    color:rgb(255, 255, 255)
+}
+
+table, th, td {
+    border-width: 1px; 
+    border-color: rgb(221, 221, 221);
+    border-style: solid; 
+  }
+
+  th, td{
+      padding: 5px;
+  }

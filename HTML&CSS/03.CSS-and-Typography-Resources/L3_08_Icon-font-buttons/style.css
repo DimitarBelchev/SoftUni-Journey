@@ -1,0 +1,21 @@
+@import url('https://use.fontawesome.com/releases/v5.10.2/css/all.css');
+
+p{
+    display: inline-block;
+    padding: 15px;
+    border-radius: 3px;
+    margin: 1px, 1px, 1px, 1px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+p.ClickMe{
+    background-color: green;
+}
+
+p.EmailMe{
+    background-color: orange;
+}
