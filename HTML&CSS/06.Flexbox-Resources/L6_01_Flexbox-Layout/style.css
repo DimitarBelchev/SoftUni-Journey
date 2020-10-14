@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+header,
+main,
+aside,
+footer {
+    text-transform: uppercase;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 5px rgba(194,194,194,0.7)
+}

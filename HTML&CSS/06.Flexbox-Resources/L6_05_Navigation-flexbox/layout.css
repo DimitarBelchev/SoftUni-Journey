@@ -1,0 +1,18 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+
+body {
+    padding: 3em;
+}
+
+body > header, ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+

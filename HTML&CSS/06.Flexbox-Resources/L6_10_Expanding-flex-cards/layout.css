@@ -1,0 +1,21 @@
+html{
+    box-sizing: border-box;
+}
+
+body, .container, ul, li{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+ul{
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+li{
+    align-items: center;
+    justify-content: center; 
+    overflow: hidden;
+    align-items: stretch;
+}

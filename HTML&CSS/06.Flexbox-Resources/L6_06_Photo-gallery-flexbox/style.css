@@ -1,0 +1,17 @@
+body{
+    background-color: whitesmoke;
+}
+
+.gallery{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+li{
+    list-style: none;
+    background-color: white;
+    border: 7px black solid;
+    box-shadow: 0px 0px 5px 6px rgba(143,143,143,0.44);
+    padding: 20px 10px;
+    margin-bottom: 15px;
+}

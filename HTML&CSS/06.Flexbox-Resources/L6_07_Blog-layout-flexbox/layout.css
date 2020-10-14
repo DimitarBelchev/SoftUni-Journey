@@ -1,0 +1,34 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.page > header {
+    flex-basis: 100%;
+}
+
+.page > main {
+    flex-basis: 75%;
+}
+
+.page > aside{
+    flex-basis: 20%;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}

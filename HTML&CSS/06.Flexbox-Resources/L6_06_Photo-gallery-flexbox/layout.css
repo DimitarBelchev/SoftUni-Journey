@@ -1,0 +1,19 @@
+html{
+    box-sizing: border-box;
+}
+
+body, ul, li{
+    display: flex;
+}
+
+ul{
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+li{
+    align-items: center;
+    justify-content: center; 
+}
+
