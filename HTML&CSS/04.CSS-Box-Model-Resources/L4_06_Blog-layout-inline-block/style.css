@@ -1,0 +1,23 @@
+html{
+    color: rgb(51, 51, 51);
+}
+
+body{
+    background: rgb(238, 238, 238);
+}
+
+img{
+    max-height: 500px;
+    max-width: 500px;
+}
+
+aside {
+    width: 20%;
+    padding-right: 35px;
+    margin-right: 35px;
+    float: right;
+  }
+
+  article {
+    width: 70%;
+}

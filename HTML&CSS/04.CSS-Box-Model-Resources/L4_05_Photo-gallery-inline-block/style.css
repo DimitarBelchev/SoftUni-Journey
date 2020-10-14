@@ -1,0 +1,16 @@
+.gallery img {
+    border-width: 0.4rem;
+    border-color: black;
+    border-style: solid;
+    padding: 10px;
+    background: white;
+    box-sizing: inherit;
+}
+
+li {
+    display: inline-block;
+}
+
+ul {
+    list-style-type: none;
+}
