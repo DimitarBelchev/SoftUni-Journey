@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css');
+
+body,*{
+    margin-top:0;
+    padding:0;
+    font-family: "Lato", sans-serif;
+}
+
+
+.logo img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5%;
+}
+
+.car-dealers{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    vertical-align: top;
+}
+
+.text{
+    margin:auto;
+    width:45%;
+height: 100%;
+margin-top:0;
+line-height: 2;
+}
+
+.img{
+    margin:auto;
+    width:45%
+}
+
+.img img{
+    height: 100%;
+    width:100%
+}
+ 
+h1{
+text-align: center;
+margin-top: -13px;
+}
+
+.grey{
+    color:#B7A39D
+}
+
+.grey-grey{
+    color:#B7A39D;
+margin-bottom:70px;
+    
+}
+
+
+
+.very-grey{
+    color:#95786E
+}
+
+.first {
+   display: flex;
+   align-items: center;
+}
+
+.first img{
+    margin-bottom: 20px;
+}
+
+

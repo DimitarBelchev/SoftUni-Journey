@@ -1,0 +1,157 @@
+@media screen and (max-width: 468px){
+.div-header{
+    display:none;
+}
+
+.logo-center{
+    width:30%
+}
+
+body > header > h3{
+font-size: 15px;
+}
+
+body > header > h1{
+    font-size:30px;
+}
+
+body > header > section{
+    flex-flow: column;
+}
+
+.options article{
+text-align: center;
+border-top: 1px solid white;
+width: 100%;
+padding-bottom: 50px;}
+
+body > main > section.gallery{
+    flex-flow: column;
+}
+
+.gallery article{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.gallery article a {
+margin:0;
+}
+
+
+.blog-title{
+    padding:0;
+    justify-content: center;
+    width:100%
+}
+
+.blog-title h4{
+font-size: 30px;
+margin:20px 0;
+}
+
+
+.blog article img{
+    display: none;
+}
+
+body > main > section.blog > div > h4 > span{
+    display: none;
+}
+
+body > main > section.blog > div > a{
+    display: none;
+}
+
+.blog > article{
+    justify-content: center;
+}
+
+#about-blog{
+    width:90%
+}
+
+.magazine{
+    display:flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.magazine-title{
+    padding: 30px 0 0 0;
+    width:100%;
+    justify-content: center;
+}
+
+.magazine-title > h4{
+    font-size: 25px;
+}
+
+.magazine-title a{
+    display: none;
+}
+
+.magazine > article{
+    display: flex;
+    flex-flow: column;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#magazine-img{
+    width: 70%;
+    padding: 0;
+}
+
+.magazine-info{
+    margin:0;
+    text-align: center;
+    width: 100%;
+}
+
+.magazine-info p{
+    font-size: 15px;
+    margin-top: 15px;
+    justify-content: center;
+    text-align: center;
+    width: 85%;
+    margin-left: 50PX;
+}
+
+body > main > section.magazine > article > div > button{
+    margin-bottom:0;
+    margin-top: 30;
+}
+
+.magazine-info img{
+    width:100%
+}
+
+body > main > section.magazine > article > div > h3{
+    margin-top:10px;
+}
+
+footer{
+    display: flex; 
+       flex-flow: column;
+}
+
+
+.icons{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+body > main > footer > p{
+    font-size: 21px;
+}
+
+.icons a{
+    margin: 5px;
+}
+}
+
+

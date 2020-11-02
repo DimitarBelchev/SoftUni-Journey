@@ -1,0 +1,171 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css');
+
+body{
+    margin:0;
+    font-family: 'Lato', sans-serif;
+}
+
+h3,price{
+    font-family: 'Montserrat', sans-serif;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    margin: 80px auto;
+    justify-content: center;
+}
+
+section article{
+    box-shadow:0px 0px 4px -1px #524f4f;
+    border-radius: 12px;
+    margin:0 20px;
+    min-height: 45vh;
+}
+.benefits{
+    background:#E3F3FD;
+    padding: 20px;
+}
+
+.benefits ul{
+  padding-left: 0;  
+}
+
+.benefits i{
+    color:  #44A9F8;
+    margin-right: 10px;
+}
+.benefits li{
+    list-style: none;
+    padding:10px 0;
+}
+
+.benefits h3{
+    margin-top:0;
+    font-size: 20px;
+    color:#475465;
+
+}
+
+.price-wrapper{
+    border:4px solid #44A9F8;
+    border-radius: 12px;
+    text-align: center;
+    padding: 20px;
+    flex-basis: 30%;
+    align-self: center;
+}
+
+.price-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:70px
+}
+
+.price{
+    margin:0;
+    font-size:40px;
+    color:#44A9F8;
+}
+
+.price-wrapper button{
+    background: #44A9F8;
+    text-transform: uppercase;
+    border-radius: 4px;
+    box-shadow: 0px 0px 4px -1px #524f4f;
+    color: white;
+    padding: 12px 40px;
+    border:none;
+}
+
+.price-wrapper butto:hover{
+    cursor:pointer;
+}
+
+ */
+
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css');
+
+body, * {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.card {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 100px 20px;
+}
+
+.description,
+.enroll {
+  flex: 0 1 40%;
+  border-radius: 10px;
+  box-shadow: 0px 1px 4px 1px #cccccc
+}
+
+.description {
+  background-color: #E3F3FD;
+  padding: 30px 0px 30px 30px;
+}
+
+.description h2 {
+  color: #546272;
+  font-weight: 500;
+}
+
+.description p {
+  margin: 20px 0;
+  color: #656668;
+}
+
+.fa-check {
+  color: #44A9F8;
+  margin-right: 15px;
+}
+
+.enroll {
+  border: 5px solid #44A9F8;
+  padding: 60px 0;
+  text-align: center;
+  color: #636363;
+}
+
+.enroll h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+.enroll span {
+  color: #44A9F8;
+  font-size: 3rem;
+}
+
+.enroll p {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.enroll button {
+  padding: 6px 50px;
+  font-size: 1.2rem;
+  color: #FFFFFF;
+  background-color: #44A9F8;
+  border: none;
+  border-radius: 5px;
+  margin-top: 41px;
+  box-shadow: 0px 2px 3px 2px #cccccc;
+  cursor: pointer;
+  outline: none;
+}
